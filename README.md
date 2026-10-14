@@ -182,6 +182,12 @@ The failure-class recall of 0.84 indicates that the model identified approximate
 
 Because the dataset is imbalanced, precision, recall, F1-score, and the confusion matrix are important when interpreting model performance. These results apply to the dataset test split and do not establish performance on real industrial equipment.
 
+### Confusion Matrix
+
+The confusion matrix summarizes correct and incorrect predictions for each class on the test set.
+
+![Confusion Matrix](images/confusion_matrix.png)
+
 ## Run Predictions on New Data
 
 Prepare a CSV containing the six input columns required by the prediction script:
