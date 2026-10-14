@@ -6,6 +6,10 @@ A machine-learning project that estimates machine-failure risk from industrial o
 
 Unexpected machine failures can cause production delays, equipment damage, and maintenance costs. This project demonstrates how machine-learning techniques can analyze operating measurements and estimate the likelihood of a machine-failure label.
 
+## Dashboard Preview
+
+![Predictive Maintenance Dashboard](images/dashboard.PNG)
+
 ### Key Features
 
 - Machine-failure classification using operating measurements
