@@ -165,6 +165,23 @@ Exact outputs depend on the current implementation.
 
 Because the dataset is imbalanced, evaluate precision, recall, F1-score, and the confusion matrix in addition to accuracy.
 
+### Model Evaluation Results
+
+The model was evaluated on a test set of 2,500 records from the AI4I 2020 Predictive Maintenance Dataset.
+
+| Metric | No Failure | Failure |
+|---|---:|---:|
+| Precision | 0.99 | 0.78 |
+| Recall | 0.99 | 0.84 |
+| F1-score | 0.99 | 0.81 |
+| Support | 2,415 | 85 |
+
+**Overall accuracy:** 0.99 (99%)
+
+The failure-class recall of 0.84 indicates that the model identified approximately 84% of the failure examples in this test set. The failure-class precision of 0.78 indicates that some failure predictions were false alarms.
+
+Because the dataset is imbalanced, precision, recall, F1-score, and the confusion matrix are important when interpreting model performance. These results apply to the dataset test split and do not establish performance on real industrial equipment.
+
 ## Run Predictions on New Data
 
 Prepare a CSV containing the six input columns required by the prediction script:
